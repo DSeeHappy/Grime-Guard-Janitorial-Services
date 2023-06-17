@@ -124,21 +124,21 @@ export default function Example() {
                                         width={1728}
                                     />
                                 </a>
-                                <button
-                                    type="button"
-                                    className="-m-2.5 rounded-md p-2.5 text-gray-700 lg:hidden"
-                                    onClick={() => setMobileMenuOpen(true)}
-                                >
-                                    <span className="sr-only">Open main menu</span>
-                                    <Bars3Icon className="h-6 w-6" aria-hidden="true" />
-                                </button>
-                                <div className="hidden lg:ml-12 lg:flex lg:gap-x-14">
-                                    {topNav.map((item) => (
-                                        <a key={item.name} href={item.href} className="text-sm font-semibold leading-6 text-DarkBlueShade">
-                                            {item.name}
-                                        </a>
-                                    ))}
-                                </div>
+                                {/*<button*/}
+                                {/*    type="button"*/}
+                                {/*    className="-m-2.5 rounded-md p-2.5 text-gray-700 lg:hidden"*/}
+                                {/*    onClick={() => setMobileMenuOpen(true)}*/}
+                                {/*>*/}
+                                {/*    <span className="sr-only">Open main menu</span>*/}
+                                {/*    <Bars3Icon className="h-6 w-6" aria-hidden="true" />*/}
+                                {/*</button>*/}
+                                {/*<div className="hidden lg:ml-12 lg:flex lg:gap-x-14">*/}
+                                {/*    {topNav.map((item) => (*/}
+                                {/*        <a key={item.name} href={item.href} className="text-sm font-semibold leading-6 text-DarkBlueShade">*/}
+                                {/*            {item.name}*/}
+                                {/*        </a>*/}
+                                {/*    ))}*/}
+                                {/*</div>*/}
                             </nav>
                         </div>
                     </div>
