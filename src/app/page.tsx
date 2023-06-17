@@ -25,36 +25,36 @@ const topNav = [
 ]
 const incentives = [
     {
-        name: 'Free shipping',
+        name: 'Free Consult',
         imageSrc: 'https://tailwindui.com/img/ecommerce/icons/icon-shipping-simple.svg',
-        description: "It's not actually free we just price it into the products. Someone's paying for it, and it's not us.",
+        description: "We initiate our journey with a detailed consultation to understand your unique cleaning needs.",
     },
     {
-        name: '10-year warranty',
+        name: 'Schedule',
         imageSrc: 'https://tailwindui.com/img/ecommerce/icons/icon-warranty-simple.svg',
-        description: "If it breaks in the first 10 years we'll replace it. After that you're on your own though.",
+        description: "With your needs in mind, we plan and schedule our cleaning tasks at your convenience, ensuring our services seamlessly blend with your operations.",
     },
     {
-        name: 'Exchanges',
+        name: 'Clean',
         imageSrc: 'https://tailwindui.com/img/ecommerce/icons/icon-exchange-simple.svg',
         description:
-            "If you don't like it, trade it to one of your friends for something of theirs. Don't send it here though.",
+            "Our team, led by an industry veteran, meticulously cleans your space using eco-friendly products.",
     },
 ]
 const cards = [
     {
-        name: 'Sales',
-        description: 'Consectetur vel non. Rerum ut consequatur nobis unde. Enim est quo corrupti consequatur.',
+        name: 'Tailored Services',
+        description: 'Our services are meticulously tailored to your needs. Whether it\'s regular office cleaning or specialized sanitation procedures, we offer a diverse range of services to keep your workspace pristine and welcoming.',
         icon: PhoneIcon,
     },
     {
-        name: 'Technical Support',
-        description: 'Quod possimus sit modi rerum exercitationem quaerat atque tenetur ullam.',
+        name: 'Flexible Scheduling',
+        description: 'At Grime Guard, we align with your schedule to minimize disruption to your operations. You decide when and how often we clean, ensuring our services fit seamlessly into your day-to-day business activities.',
         icon: LifebuoyIcon,
     },
     {
-        name: 'Media Inquiries',
-        description: 'Ratione et porro eligendi est sed ratione rerum itaque. Placeat accusantium impedit eum odit.',
+        name: 'Uncompromising Quality',
+        description: 'We take immense pride in the quality of our work. Our attention to detail and use of eco-friendly cleaning products ensure that your workspace is not only clean but also healthy and safe.',
         icon: NewspaperIcon,
     },
 ]
@@ -123,33 +123,33 @@ const navigation = [
 ]
 const features = [
     {
-        name: 'Push to deploy.',
-        description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit aute id magna.',
+        name: 'Office Cleaning',
+        description: 'Our services cover all aspects of office cleaning including dusting, vacuuming, trash removal, and sanitizing common areas to maintain a clean and welcoming work environment.',
         icon: CloudArrowUpIcon,
     },
     {
-        name: 'SSL certificates.',
-        description: 'Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo.',
+        name: 'Health Focused Cleaning',
+        description: ' In these unprecedented times, we\'ve enhanced our cleaning protocols to include additional measures that help safeguard your workspace against health risks. This thorough sanitization process contributes to the well-being of employees and visitors alike.',
         icon: LockClosedIcon,
     },
     {
-        name: 'Simple queues.',
-        description: 'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus.',
+        name: 'Restroom Sanitation & Restocking',
+        description: 'We meticulously maintain the hygiene and cleanliness of your restrooms, ensuring they are fully stocked, sanitized, and odor-free at all times.',
         icon: ArrowPathIcon,
     },
     {
-        name: 'Advanced security.',
-        description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit aute id magna.',
+        name: 'Breakroom Cleaning & Restocking',
+        description: 'Our services extend to cleaning and maintaining the cleanliness of breakrooms or kitchens, including appliance cleaning, countertop and sink cleaning, and trash removal.',
         icon: FingerPrintIcon,
     },
     {
-        name: 'Powerful API.',
-        description: 'Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo.',
+        name: 'High-touch Point Sanitization',
+        description: 'We pay special attention to areas with high human contact, such as door handles, elevator buttons, and light switches, ensuring these frequently touched surfaces are regularly cleaned and sanitized.',
         icon: Cog6ToothIcon,
     },
     {
-        name: 'Database backups.',
-        description: 'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. ',
+        name: 'Detailed Cleaning',
+        description: 'This service tackles dust build-up on all surfaces, including hard-to-reach areas, ensuring a cleaner and healthier workspace.',
         icon: ServerIcon,
     },
 ]
@@ -189,12 +189,12 @@ const faqs = [
     // More questions...
 ]
 const benefits = [
-    'Competitive salaries',
-    'Flexible work hours',
-    '30 days of paid vacation',
-    'Annual team retreats',
-    'Benefits for you and your family',
-    'A great work environment',
+    'Two Decades of Expertise',
+    'Personalized Approach',
+    'Reliable and Consistent',
+    'Affordable Excellence',
+    'Eco-friendly Cleaning',
+    'Committed to Customer Satisfaction',
 ]
 function classNames(...classes) {
     return classes.filter(Boolean).join(' ')
@@ -304,31 +304,25 @@ export default function Example() {
                                 <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-xl">
                                     <div className="hidden sm:mb-10 sm:flex">
                                         <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-500 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
-                                            Anim aute id magna aliqua ad ad non deserunt sunt.{' '}
-                                            <a href="#" className="whitespace-nowrap font-semibold text-indigo-600">
-                                                <span className="absolute inset-0" aria-hidden="true" />
-                                                Read more <span aria-hidden="true">&rarr;</span>
-                                            </a>
+                                            Scheduled Cleaning | Two Decades of Industry Experience
                                         </div>
                                     </div>
                                     <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
-                                        Data to enrich your online business
+                                        Step into a World of Exceptional Cleanliness with Grime Guard
                                     </h1>
                                     <p className="mt-6 text-lg leading-8 text-gray-600">
-                                        Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt
-                                        amet fugiat veniam occaecat fugiat aliqua.
-                                    </p>
-                                    <div className="mt-10 flex items-center gap-x-6">
-                                        <a
-                                            href="#"
-                                            className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
-                                        >
-                                            Get started
-                                        </a>
-                                        <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
-                                            Learn more <span aria-hidden="true">→</span>
-                                        </a>
-                                    </div>
+                                        Welcome to Grime Guard Janitorial Services, your new reliable partner for all your commercial cleaning needs. We carry with us two decades of industry experience and an unwavering commitment to guard your space against grime, leaving nothing behind but a fresh, vibrant environment.                                    </p>
+                                    {/*<div className="mt-10 flex items-center gap-x-6">*/}
+                                    {/*    <a*/}
+                                    {/*        href="#"*/}
+                                    {/*        className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"*/}
+                                    {/*    >*/}
+                                    {/*        Get started*/}
+                                    {/*    </a>*/}
+                                    {/*    <a href="#" className="text-sm font-semibold leading-6 text-gray-900">*/}
+                                    {/*        Learn more <span aria-hidden="true">→</span>*/}
+                                    {/*    </a>*/}
+                                    {/*</div>*/}
                                 </div>
                             </div>
                         </div>
@@ -346,11 +340,10 @@ export default function Example() {
                     <div className="mx-auto max-w-7xl px-6 lg:px-8">
                         <div className="mx-auto max-w-2xl lg:mx-0">
                             <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-                                Stay on top of customer support
+                                At Grime Guard, we tailor our services to meet your specific needs, fostering a clean, comfortable, and productive work environment.
                             </h2>
                             <p className="mt-6 text-lg leading-8 text-gray-600">
-                                Lorem ipsum dolor sit amet consect adipisicing elit. Possimus magnam voluptatum cupiditate veritatis in
-                                accusamus quisquam.
+                                Embark on your journey with Grime Guard today. Our straightforward process ensures that your commercial space not only shines but also facilitates productivity, leaving you to concentrate on what truly matters in your business.
                             </p>
                         </div>
                         <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none">
@@ -417,14 +410,12 @@ export default function Example() {
                                 </svg>
                                 <blockquote className="text-xl font-semibold leading-8 text-white sm:text-2xl sm:leading-9">
                                     <p>
-                                        Gravida quam mi erat tortor neque molestie. Auctor aliquet at porttitor a enim nunc suscipit
-                                        tincidunt nunc. Et non lorem tortor posuere. Nunc eu scelerisque interdum eget tellus non nibh
-                                        scelerisque bibendum.
+                                        At Grime Guard, we are committed to delivering a clean, safe, and hygienic workspace for our clients. We understand the crucial role cleanliness plays in enhancing productivity and elevating brand reputation. Our promise is to help you make the best impression every day.
                                     </p>
                                 </blockquote>
                                 <figcaption className="mt-8 text-base">
-                                    <div className="font-semibold text-white">Judith Black</div>
-                                    <div className="mt-1 text-gray-400">CEO of Tuple</div>
+                                    <div className="font-semibold text-white">Rosa Chavez</div>
+                                    <div className="mt-1 text-gray-400">Owner of Grime Guard Janitorial Services</div>
                                 </figcaption>
                             </figure>
                         </div>
@@ -437,12 +428,10 @@ export default function Example() {
                             <div className="grid grid-cols-1 items-center gap-x-16 gap-y-10 lg:grid-cols-2">
                                 <div>
                                     <h2 className="text-4xl font-bold tracking-tight text-gray-900">
-                                        We built our business on great customer service
+                                        The Grime Guard Advantage
                                     </h2>
                                     <p className="mt-4 text-gray-500">
-                                        At the beginning at least, but then we realized we could make a lot more money if we kinda stopped
-                                        caring about that. Our new strategy is to write a bunch of things that look really good in the
-                                        headlines, then clarify in the small print but hope people don't actually read it.
+                                        Choosing Grime Guard means choosing a dedicated ally who will value and respect your space as much as you do. We take immense pride in our attention to detail, professional demeanor, and the relentless pursuit of customer satisfaction.
                                     </p>
                                 </div>
                                 <div className="aspect-h-2 aspect-w-3 overflow-hidden rounded-lg bg-gray-100">
@@ -477,21 +466,18 @@ export default function Example() {
                             <div className="lg:col-end-1 lg:w-full lg:max-w-lg lg:pb-8">
                                 <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Our people</h2>
                                 <p className="mt-6 text-xl leading-8 text-gray-600">
-                                    Quasi est quaerat. Sit molestiae et. Provident ad dolorem occaecati eos iste. Soluta rerum quidem minus ut
-                                    molestiae velit error quod. Excepturi quidem expedita molestias quas.
-                                </p>
+                                    At the core of Grime Guard is our dedicated team, small but mighty, led by a seasoned professional with 20 years of industry experience. Our people are more than our strength - they are our defining factor.                                </p>
                                 <p className="mt-6 text-base leading-7 text-gray-600">
-                                    Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet
-                                    fugiat veniam occaecat fugiat. Quasi aperiam sit non sit neque reprehenderit.
+                                    Choosing Grime Guard means choosing a small business that operates with the passion, dedication, and personal touch that larger firms often lack. You're not just hiring a cleaning service – you're partnering with a team that brings a wealth of industry knowledge and skill to your commercial space.
                                 </p>
-                                <div className="mt-10 flex">
-                                    <a
-                                        href="#"
-                                        className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
-                                    >
-                                        Join our team <span aria-hidden="true">&rarr;</span>
-                                    </a>
-                                </div>
+                                {/*<div className="mt-10 flex">*/}
+                                {/*    <a*/}
+                                {/*        href="#"*/}
+                                {/*        className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"*/}
+                                {/*    >*/}
+                                {/*        Join our team <span aria-hidden="true">&rarr;</span>*/}
+                                {/*    </a>*/}
+                                {/*</div>*/}
                             </div>
                             <div className="flex flex-wrap items-start justify-end gap-6 sm:gap-8 lg:contents">
                                 <div className="w-0 flex-auto lg:ml-auto lg:w-auto lg:flex-none lg:self-end">
@@ -540,11 +526,9 @@ export default function Example() {
                                     alt=""
                                 />
                                 <div className="w-full flex-auto">
-                                    <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">Join our team</h2>
+                                    <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">The Grime Guard Difference</h2>
                                     <p className="mt-6 text-lg leading-8 text-gray-300">
-                                        Lorem ipsum dolor sit amet consect adipisicing elit. Possimus magnam voluptatum cupiditate veritatis in
-                                        accusamus quisquam.
-                                    </p>
+                                        Our team is led by a seasoned professional with 20 years of industry experience, ensuring high-quality service that meets and exceeds your expectations.                                 </p>
                                     <ul
                                         role="list"
                                         className="mt-10 grid grid-cols-1 gap-x-8 gap-y-3 text-base leading-7 text-white sm:grid-cols-2"
@@ -556,11 +540,11 @@ export default function Example() {
                                             </li>
                                         ))}
                                     </ul>
-                                    <div className="mt-10 flex">
-                                        <a href="#" className="text-sm font-semibold leading-6 text-indigo-400">
-                                            See our job postings <span aria-hidden="true">&rarr;</span>
-                                        </a>
-                                    </div>
+                                    {/*<div className="mt-10 flex">*/}
+                                    {/*    <a href="#" className="text-sm font-semibold leading-6 text-indigo-400">*/}
+                                    {/*        See our job postings <span aria-hidden="true">&rarr;</span>*/}
+                                    {/*    </a>*/}
+                                    {/*</div>*/}
                                 </div>
                             </div>
                         </div>
@@ -613,13 +597,10 @@ export default function Example() {
                     </div>
                     <div className="relative mx-auto max-w-7xl py-24 sm:py-32 lg:px-8 lg:py-40">
                         <div className="pl-6 pr-6 md:ml-auto md:w-2/3 md:pl-16 lg:w-1/2 lg:pl-24 lg:pr-0 xl:pl-32">
-                            <h2 className="text-base font-semibold leading-7 text-indigo-400">Award winning support</h2>
-                            <p className="mt-2 text-3xl font-bold tracking-tight text-white sm:text-4xl">We’re here to help</p>
+                            <h2 className="text-base font-semibold leading-7 text-indigo-400">Diligence & Timeliness</h2>
+                            <p className="mt-2 text-3xl font-bold tracking-tight text-white sm:text-4xl">Without compromising on service quality</p>
                             <p className="mt-6 text-base leading-7 text-gray-300">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et, egestas tempus tellus etiam sed. Quam a
-                                scelerisque amet ullamcorper eu enim et fermentum, augue. Aliquet amet volutpat quisque ut interdum
-                                tincidunt duis.
-                            </p>
+                                In the world of janitorial services, punctuality and diligence are of utmost importance. At Grime Guard, we respect your time and always ensure our cleaning tasks are completed within the agreed timeframe.</p>
                             <div className="mt-8">
                                 <a
                                     href="#"
@@ -663,11 +644,10 @@ export default function Example() {
                         <div className="lg:col-span-2 lg:col-start-1 lg:row-start-1 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
                             <div className="lg:pr-4">
                                 <div className="lg:max-w-lg">
-                                    <p className="text-base font-semibold leading-7 text-indigo-600">Deploy faster</p>
-                                    <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">A better workflow</h1>
+                                    <p className="text-base font-semibold leading-7 text-indigo-600">Accommodating Your Schedule</p>
+                                    <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Streamlined Process, Optimized Results</h1>
                                     <p className="mt-6 text-xl leading-8 text-gray-700">
-                                        Aliquet nec orci mattis amet quisque ullamcorper neque, nibh sem. At arcu, sit dui mi, nibh dui, diam
-                                        eget aliquam. Quisque id at vitae feugiat egestas.
+                                        Our flexible workflow designed with your schedule in mind
                                     </p>
                                 </div>
                             </div>
@@ -683,46 +663,34 @@ export default function Example() {
                             <div className="lg:pr-4">
                                 <div className="max-w-xl text-base leading-7 text-gray-700 lg:max-w-lg">
                                     <p>
-                                        Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget risus enim. Mattis mauris semper sed amet
-                                        vitae sed turpis id. Id dolor praesent donec est. Odio penatibus risus viverra tellus varius sit neque
-                                        erat velit. Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget risus enim. Mattis mauris
-                                        semper sed amet vitae sed turpis id.
+                                        At Grime Guard, we understand the importance of a clean work environment, as well as the value of your time. That's why we've designed a flexible, efficient workflow that aligns with your schedule and operational needs.
                                     </p>
                                     <ul role="list" className="mt-8 space-y-8 text-gray-600">
                                         <li className="flex gap-x-3">
                                             <CloudArrowUpIcon className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" />
                                             <span>
-                    <strong className="font-semibold text-gray-900">Push to deploy.</strong> Lorem ipsum, dolor sit amet
-                    consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate
-                    blanditiis ratione.
+                    <strong className="font-semibold text-gray-900">Consultation</strong> Our process begins with a detailed understanding of your cleaning needs and scheduling requirements.
                   </span>
                                         </li>
                                         <li className="flex gap-x-3">
                                             <LockClosedIcon className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" />
                                             <span>
-                    <strong className="font-semibold text-gray-900">SSL certificates.</strong> Anim aute id magna aliqua
-                    ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo.
+                    <strong className="font-semibold text-gray-900">Scheduling</strong> Based on your business hours and preferences, we arrange our cleaning services to minimize disruption to your operations.
                   </span>
                                         </li>
                                         <li className="flex gap-x-3">
                                             <ServerIcon className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" />
                                             <span>
-                    <strong className="font-semibold text-gray-900">Database backups.</strong> Ac tincidunt sapien
-                    vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.
+                    <strong className="font-semibold text-gray-900">Clean on Schedule</strong> Our team arrives as scheduled, performing the cleaning tasks diligently and efficiently, while respecting your workspace.
                   </span>
                                         </li>
                                     </ul>
                                     <p className="mt-8">
-                                        Et vitae blandit facilisi magna lacus commodo. Vitae sapien duis odio id et. Id blandit molestie auctor
-                                        fermentum dignissim. Lacus diam tincidunt ac cursus in vel. Mauris varius vulputate et ultrices hac
-                                        adipiscing egestas. Iaculis convallis ac tempor et ut. Ac lorem vel integer orci.
+                                        This process ensures that our cleaning services not only meet the high-quality standards we uphold at Grime Guard but also seamlessly fit into your daily routine, enhancing your work environment without any disruptions.
                                     </p>
-                                    <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">No server? No problem.</h2>
+                                    <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">Committed to Your Satisfaction</h2>
                                     <p className="mt-6">
-                                        Id orci tellus laoreet id ac. Dolor, aenean leo, ac etiam consequat in. Convallis arcu ipsum urna nibh.
-                                        Pharetra, euismod vitae interdum mauris enim, consequat vulputate nibh. Maecenas pellentesque id sed
-                                        tellus mauris, ultrices mauris. Tincidunt enim cursus ridiculus mi. Pellentesque nam sed nullam sed diam
-                                        turpis ipsum eu a sed convallis diam.
+                                        At Grime Guard, your satisfaction is our priority. We continually strive to refine our workflow and services based on your feedback and evolving needs. With our flexible scheduling and commitment to excellence, we aim to provide a service that surpasses your expectations while respecting your time and business operations.
                                     </p>
                                 </div>
                             </div>
@@ -755,11 +723,9 @@ export default function Example() {
                     </div>
                     <div className="mx-auto max-w-7xl px-6 lg:px-8">
                         <div className="mx-auto max-w-2xl lg:mx-0">
-                            <h2 className="text-4xl font-bold tracking-tight text-white sm:text-6xl">Support center</h2>
+                            <h2 className="text-4xl font-bold tracking-tight text-white sm:text-6xl">Your Partner in Cleanliness</h2>
                             <p className="mt-6 text-lg leading-8 text-gray-300">
-                                Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet
-                                fugiat veniam occaecat fugiat aliqua.
-                            </p>
+                                As your trusted partner, Grime Guard upholds the cleanliness and hygiene of your workspace, providing high-quality, personalized janitorial services. With two decades of experience in the industry, we have honed our skills and refined our processes to ensure that every corner of your commercial space shine                            </p>
                         </div>
                         <div className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-6 sm:mt-20 lg:mx-0 lg:max-w-none lg:grid-cols-3 lg:gap-8">
                             {cards.map((card) => (
