@@ -5,22 +5,18 @@ module.exports = {
     './src/components/**/*.{js,ts,jsx,tsx,mdx}',
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
-  colors:{
-    transparent:'transparent',
-    'LightShades':'f6eaaf',
-    'LightAccent':'e0446d',
-    'Main':'0988a9',
-    'DarkAccent':'37260c',
-    'DarkShades':'083043',
-  },
   theme: {
+    fontFamily:{
+      'display':['Oswald'],
+      'body':['Oswald']
+    },
     extend: {
       colors:{
-        'LightShades':'f6eaaf',
-        'LightAccent':'e0446d',
-        'primary':'0988a9',
-        'DarkAccent':'37260c',
-        'DarkShades':'083043',
+        'LightBrownAccent':'#f6eaaf',
+        'LightPinkAccent':'#e0446d',
+        'LightBlueAccent':'#0988a9',
+        'DarkBrownShade':'#37260c',
+        'DarkBlueShade':'#083043',
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
