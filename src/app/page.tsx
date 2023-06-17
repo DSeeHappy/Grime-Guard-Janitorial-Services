@@ -206,7 +206,7 @@ export default function Example() {
                             <div className="relative px-6 py-32 sm:py-40 lg:px-8 lg:py-56 lg:pr-0">
                                 <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-xl">
                                     <div className="hidden sm:mb-10 sm:flex">
-                                        <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-LightBlueAccent ring-1 ring-LightBrownAccent hover:ring-gray-900/20">
+                                        <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-LightBlueAccent ring-2 ring-LightBrownAccent hover:ring-DarkBlueShade/80">
                                             Scheduled Cleaning | Two Decades of Industry Experience
                                         </div>
                                     </div>
@@ -214,7 +214,7 @@ export default function Example() {
                                         Step into a World of Exceptional Cleanliness with Grime Guard
                                     </h1>
                                     <p className="mt-6 text-lg leading-8 text-DarkBrownShade">
-                                        Welcome to Grime Guard Janitorial Services, your new reliable partner for all your commercial cleaning needs. We carry with us two decades of industry experience and an unwavering commitment to guard your space against grime, leaving nothing behind but a fresh, vibrant environment.                                    </p>
+                                        Welcome to Grime Guard Janitorial Services, your new reliable partner for all your commercial cleaning needs. <br/> <br/>We carry with us two decades of industry experience and an unwavering commitment to guard your space against grime, leaving nothing behind but a fresh, vibrant environment.                                    </p>
                                     {/*<div className="mt-10 flex items-center gap-x-6">*/}
                                     {/*    <a*/}
                                     {/*        href="#"*/}
@@ -316,7 +316,7 @@ export default function Example() {
                                 </svg>
                                 <blockquote className="text-xl font-semibold leading-8 text-white sm:text-2xl sm:leading-9">
                                     <p>
-                                        At Grime Guard, we are committed to delivering a clean, safe, and hygienic workspace for our clients. We understand the crucial role cleanliness plays in enhancing productivity and elevating brand reputation. Our promise is to help you make the best impression every day.
+                                        At Grime Guard, we are committed to delivering a clean, safe, and hygienic workspace for our clients.<br/><br/> We understand the crucial role cleanliness plays in enhancing productivity and elevating brand reputation.<br/><br/> Our promise is to help you make the best impression every day.
                                     </p>
                                 </blockquote>
                                 <figcaption className="mt-8 text-base">
@@ -337,7 +337,7 @@ export default function Example() {
                                         The Grime Guard Advantage
                                     </h2>
                                     <p className="mt-4 text-DarkBrownShade">
-                                        Choosing Grime Guard means choosing a dedicated ally who will value and respect your space as much as you do. We take immense pride in our attention to detail, professional demeanor, and the relentless pursuit of customer satisfaction.
+                                        Choosing Grime Guard means choosing a dedicated ally who will value and respect your space as much as you do.<br/><br/> We take immense pride in our attention to detail, professional demeanor, and the relentless pursuit of customer satisfaction.
                                     </p>
                                 </div>
                                 <div className="aspect-h-2 aspect-w-3 overflow-hidden rounded-lg bg-gray-100  ring-8 ring-LightBrownAccent/80">
@@ -373,7 +373,7 @@ export default function Example() {
                         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-12 gap-y-16 lg:mx-0 lg:min-w-full lg:max-w-none lg:flex-none lg:gap-y-8">
                             <div className="lg:col-end-1 lg:w-full lg:max-w-lg lg:pb-8">
                                 <h2 className="text-3xl font-bold tracking-tight text-DarkBlueShade sm:text-4xl">Our people</h2>
-                                <p className="mt-6 text-xl leading-8 text-LightBlueAccent">
+                                <p className="mt-6 text-xl leading-8 text-DarkBrownShade">
                                     At the core of Grime Guard is our dedicated team, small but mighty, led by a seasoned professional with 20 years of industry experience. <br/><br/>Our people are more than our strength - they are our defining factor.                                </p>
                                 <p className="mt-6 text-base leading-7 text-DarkBrownShade">
                                     Choosing Grime Guard means choosing a small business that operates with the passion, dedication, and personal touch that larger firms often lack. <br/><br/> You&apos;re not just hiring a cleaning service – you&apos;re partnering with a team that brings a wealth of industry knowledge and skill to your commercial space.
@@ -459,7 +459,7 @@ export default function Example() {
                             <h2 className="text-base font-semibold leading-7 text-LightBrownAccent">Diligence & Timeliness</h2>
                             <p className="mt-2 text-3xl font-bold tracking-tight text-white sm:text-4xl">Without compromising on service quality</p>
                             <p className="mt-6 text-base leading-7 text-gray-300">
-                                In the world of janitorial services, punctuality and diligence are of utmost importance. At Grime Guard, we respect your time and always ensure our cleaning tasks are completed within the agreed timeframe.</p>
+                                In the world of janitorial services, punctuality and diligence are of utmost importance. <br/><br/> At Grime Guard, we respect your time and always ensure our cleaning tasks are completed within the agreed timeframe.</p>
                             {/*<div className="mt-8">*/}
                             {/*    <a*/}
                             {/*        href="#"*/}
@@ -524,7 +524,7 @@ export default function Example() {
                             <div className="lg:pr-4">
                                 <div className="max-w-xl text-base leading-7 text-DarkBrownShade lg:max-w-lg">
                                     <p>
-                                        At Grime Guard, we understand the importance of a clean work environment, as well as the value of your time. That&apos;s why we&apos;ve designed a flexible, efficient workflow that aligns with your schedule and operational needs.
+                                        At Grime Guard, we understand the importance of a clean work environment, as well as the value of your time.<br/><br/> That&apos;s why we&apos;ve designed a flexible, efficient workflow that aligns with your schedule and operational needs.
                                     </p>
                                     <ul role="list" className="mt-8 space-y-8 text-DarkBrownShade">
                                         <li className="flex gap-x-3">
@@ -551,7 +551,7 @@ export default function Example() {
                                     </p>
                                     <h2 className="mt-16 text-2xl font-bold tracking-tight text-DarkBlueShade">Committed to Your Satisfaction</h2>
                                     <p className="mt-6">
-                                        At Grime Guard, your satisfaction is our priority. We continually strive to refine our workflow and services based on your feedback and evolving needs. With our flexible scheduling and commitment to excellence, we aim to provide a service that surpasses your expectations while respecting your time and business operations.
+                                        At Grime Guard, your satisfaction is our priority. We continually strive to refine our workflow and services based on your feedback and evolving needs. <br/><br/> With our flexible scheduling and commitment to excellence, we aim to provide a service that surpasses your expectations while respecting your time and business operations.
                                     </p>
                                 </div>
                             </div>
@@ -584,13 +584,13 @@ export default function Example() {
                                         />
                                     </div>
                                     <figure className="relative isolate">
-                                        <Image src="/Grime Guard Logo.png" alt="Image by Freepik" className="h-12 w-auto" height={500} width={500} />
-                                        <blockquote className="mt-6 text-xl font-semibold leading-8 text-white bg-DarkBlueShade/80 rounded-2xl p-3 ">
+                                        <Image src="/Grime Guard Logo.png" alt="Image by Freepik" className="h-20 w-auto bg-LightBrownAccent/80" height={1920} width={1080} />
+                                        <blockquote className="mt-2 text-xl font-semibold leading-10 text-DarkBlueShade bg-LightBrownAccent/80">
                                             <p>
                                                 Perfecting cleanliness with passion in Lakewood and across the vibrant neighboring communities of Colorado&apos;s Front Range.
                                             </p>
                                         </blockquote>
-                                        <figcaption className="mt-6 text-sm leading-6 text-DarkBlueShade">
+                                        <figcaption className="mt-6 text-sm leading-6 text-DarkBlueShade bg-LightBrownAccent/80">
                                             <strong className="font-semibold text-DarkBlueShade">Locally Owned, Community Focused </strong> | Choose local. Choose Grime Guard.
                                         </figcaption>
                                     </figure>
@@ -624,8 +624,8 @@ export default function Example() {
                 <div className="relative isolate overflow-hidden bg-gray-900 py-24 sm:py-32">
                     <Image
                         src="/content/cleaning-office-4.jpg"
-                        height={500}
-                        width={500}
+                        height={1920}
+                        width={1080}
                         alt="Image by Freepik"
                         className="absolute inset-0 -z-10 h-full w-full object-cover object-right md:object-center "
                     />
@@ -649,7 +649,7 @@ export default function Example() {
                     </div>
                     <div className="mx-auto max-w-7xl px-6 lg:px-8">
                         <div className="mx-auto max-w-2xl lg:mx-0">
-                            <h2 className="text-4xl font-bold tracking-tight text-DarkBlueShade sm:text-6xl">Your Partner in Cleanliness</h2>
+                            <h2 className="text-4xl font-bold tracking-tight text-DarkBlueShade sm:text-6xl bg-LightBrownAccent/40 rounded-2xl">Your Partner in Cleanliness</h2>
                             <p className="mt-6 text-lg leading-8 text-gray-300 p-6 ring-inset ring-LightBrownAccent/80 ring-1 bg-DarkBlueShade/80 rounded-xl ">
                                 As your trusted partner, Grime Guard upholds the cleanliness and hygiene of your workspace, providing high-quality, personalized janitorial services. With two decades of experience in the industry, we have honed our skills and refined our processes to ensure that every corner of your commercial space shine                            </p>
                         </div>
