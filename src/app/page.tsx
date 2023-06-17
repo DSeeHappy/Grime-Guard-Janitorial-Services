@@ -478,16 +478,8 @@ export default function Example() {
                                 <p className="mt-6 text-xl leading-8 text-gray-600">
                                     At the core of Grime Guard is our dedicated team, small but mighty, led by a seasoned professional with 20 years of industry experience. Our people are more than our strength - they are our defining factor.                                </p>
                                 <p className="mt-6 text-base leading-7 text-gray-600">
-                                    Choosing Grime Guard means choosing a small business that operates with the passion, dedication, and personal touch that larger firms often lack. You're not just hiring a cleaning service – you're partnering with a team that brings a wealth of industry knowledge and skill to your commercial space.
+                                    Choosing Grime Guard means choosing a small business that operates with the passion, dedication, and personal touch that larger firms often lack. You&apos;re not just hiring a cleaning service – you&apos;re partnering with a team that brings a wealth of industry knowledge and skill to your commercial space.
                                 </p>
-                                {/*<div className="mt-10 flex">*/}
-                                {/*    <a*/}
-                                {/*        href="#"*/}
-                                {/*        className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"*/}
-                                {/*    >*/}
-                                {/*        Join our team <span aria-hidden="true">&rarr;</span>*/}
-                                {/*    </a>*/}
-                                {/*</div>*/}
                             </div>
                             <div className="flex flex-wrap items-start justify-end gap-6 sm:gap-8 lg:contents">
                                 <div className="w-0 flex-auto lg:ml-auto lg:w-auto lg:flex-none lg:self-end">
@@ -659,7 +651,7 @@ export default function Example() {
                             <div className="lg:pr-4">
                                 <div className="max-w-xl text-base leading-7 text-gray-700 lg:max-w-lg">
                                     <p>
-                                        At Grime Guard, we understand the importance of a clean work environment, as well as the value of your time. That's why we've designed a flexible, efficient workflow that aligns with your schedule and operational needs.
+                                        At Grime Guard, we understand the importance of a clean work environment, as well as the value of your time. That&apos;s why we&apos;ve designed a flexible, efficient workflow that aligns with your schedule and operational needs.
                                     </p>
                                     <ul role="list" className="mt-8 space-y-8 text-gray-600">
                                         <li className="flex gap-x-3">
@@ -722,7 +714,7 @@ export default function Example() {
                                         <Image src="/Grime Guard Logo extra.png" alt="Image by Freepik" className="h-12 w-auto" height={500} width={500} />
                                         <blockquote className="mt-6 text-xl font-semibold leading-8 text-white">
                                             <p>
-                                                Perfecting cleanliness with passion in Lakewood and across the vibrant neighboring communities of Colorado's Front Range.
+                                                Perfecting cleanliness with passion in Lakewood and across the vibrant neighboring communities of Colorado&apos;s Front Range.
                                             </p>
                                         </blockquote>
                                         <figcaption className="mt-6 text-sm leading-6 text-gray-300">
@@ -733,38 +725,25 @@ export default function Example() {
                             </div>
                             <div>
                                 <div className="text-base leading-7 text-gray-700 lg:max-w-lg">
-                                    <p className="text-base font-semibold leading-7 text-indigo-600">Proudly Serving Colorado's Front Range</p>
+                                    <p className="text-base font-semibold leading-7 text-indigo-600">Proudly Serving Colorado&apos;s Front Range</p>
                                     <h4 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
                                         A Lakewood-Based Business for Your Janitorial Needs
                                     </h4>
                                     <div className="max-w-xl">
                                         <p className="mt-6">
-                                            Grime Guard is more than just a janitorial service; we're your neighbors. Proudly based in the vibrant city of Lakewood, we are well-positioned to serve businesses across the Colorado Front Range and within a 60-mile radius of our hometown.
+                                            Grime Guard is more than just a janitorial service; we&apos;re your neighbors. Proudly based in the vibrant city of Lakewood, we are well-positioned to serve businesses across the Colorado Front Range and within a 60-mile radius of our hometown.
                                         </p>
                                         <p className="mt-8">
                                             From the bustling heart of Denver to the scenic city of Boulder, the historic charm of Golden to the dynamic cityscape of Aurora, we are here to serve you.
                                         </p>
                                         <p className="mt-8">
-                                            Our Colorado roots run deep, and our love for this region fuels our commitment to delivering top-tier janitorial services. We're excited to bring our professional, reliable, and affordable cleaning services to more businesses around the Centennial State.
+                                            Our Colorado roots run deep, and our love for this region fuels our commitment to delivering top-tier janitorial services. We&apos;re excited to bring our professional, reliable, and affordable cleaning services to more businesses around the Centennial State.
                                         </p>
                                         <p className="mt-8">
                                             Choose Grime Guard — your local partner in cleanliness.
                                         </p>
                                     </div>
                                 </div>
-                                {/*<dl className="mt-10 grid grid-cols-2 gap-8 border-t border-gray-900/10 pt-10 sm:grid-cols-4">*/}
-                                {/*    {stats.map((stat, statIdx) => (*/}
-                                {/*        <div key={statIdx}>*/}
-                                {/*            <dt className="text-sm font-semibold leading-6 text-gray-600">{stat.label}</dt>*/}
-                                {/*            <dd className="mt-2 text-3xl font-bold leading-10 tracking-tight text-gray-900">{stat.value}</dd>*/}
-                                {/*        </div>*/}
-                                {/*    ))}*/}
-                                {/*</dl>*/}
-                                {/*<div className="mt-10 flex">*/}
-                                {/*    <a href="#" className="text-base font-semibold leading-7 text-indigo-600">*/}
-                                {/*        Learn more about our company <span aria-hidden="true">&rarr;</span>*/}
-                                {/*    </a>*/}
-                                {/*</div>*/}
                             </div>
                         </div>
                     </div>
@@ -940,7 +919,7 @@ export default function Example() {
                                 <figure className="mt-10">
                                     <blockquote className="text-lg font-semibold leading-8 text-gray-900">
                                         <p>
-                                            Don't wait for grime to take over. Schedule a consultation with Grime Guard today and reclaim your clean, productive workspace. Fill out the form to begin your cleanliness journey.                                        </p>
+                                            Don&apos;t wait for grime to take over. Schedule a consultation with Grime Guard today and reclaim your clean, productive workspace. Fill out the form to begin your cleanliness journey.                                        </p>
                                     </blockquote>
                                 </figure>
                             </div>
@@ -953,21 +932,8 @@ export default function Example() {
             <footer className="bg-white">
                 <div className="mx-auto max-w-7xl overflow-hidden px-6 py-20 sm:py-24 lg:px-8">
                     <nav className="-mb-6 columns-2 sm:flex sm:justify-center sm:space-x-12" aria-label="Footer">
-                        {/*{navigation.main.map((item) => (*/}
-                        {/*    <div key={item.name} className="pb-6">*/}
-                        {/*        <a href={item.href} className="text-sm leading-6 text-gray-600 hover:text-gray-900">*/}
-                        {/*            {item.name}*/}
-                        {/*        </a>*/}
-                        {/*    </div>*/}
-                        {/*))}*/}
                     </nav>
                     <div className="mt-10 flex justify-center space-x-10">
-                        {/*{navigation.social.map((item) => (*/}
-                        {/*    <a key={item.name} href={item.href} className="text-gray-400 hover:text-gray-500">*/}
-                        {/*        <span className="sr-only">{item.name}</span>*/}
-                        {/*        <item.icon className="h-6 w-6" aria-hidden="true" />*/}
-                        {/*    </a>*/}
-                        {/*))}*/}
                     </div>
                     <p className="mt-10 text-center text-xs leading-5 text-gray-500">
                         &copy; 2023 Grime Guard Janitorial Services, Inc. All rights reserved by DSeeHappy.
