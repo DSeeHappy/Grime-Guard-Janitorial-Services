@@ -1,23 +1,26 @@
 'use client'
 
 import { useState } from 'react'
-import { Dialog, Disclosure } from '@headlessui/react'
-import { Bars3Icon, MinusSmallIcon, PlusSmallIcon, XMarkIcon } from '@heroicons/react/24/outline'
+import { Dialog } from '@headlessui/react'
+import { XMarkIcon } from '@heroicons/react/24/outline'
 import {
     PhoneIcon,
-    LifebuoyIcon,
-    NewspaperIcon,
     CheckCircleIcon,
     ArrowPathIcon,
     CheckIcon,
-    CloudArrowUpIcon,
-    Cog6ToothIcon,
-    FingerPrintIcon,
-    LockClosedIcon,
-    ServerIcon,
+    BuildingOfficeIcon,
+    HeartIcon,
+    ArchiveBoxIcon,
+    UserCircleIcon,
+    DevicePhoneMobileIcon,
+    ClockIcon,
+    BuildingOffice2Icon,
+    CalendarIcon,
+    ClipboardDocumentListIcon,
+    CalendarDaysIcon,
+    ClipboardDocumentCheckIcon,
 } from '@heroicons/react/20/solid'
 import Image from "next/image";
-import {ClassName} from "postcss-selector-parser";
 
 const topNav = [
     { name: 'Services', href: '#services' },
@@ -28,17 +31,17 @@ const topNav = [
 const incentives = [
     {
         name: 'Free Consult',
-        imageSrc: 'https://tailwindui.com/img/ecommerce/icons/icon-shipping-simple.svg',
+        icon: DevicePhoneMobileIcon,
         description: "We initiate our journey with a detailed consultation to understand your unique cleaning needs.",
     },
     {
         name: 'Schedule',
-        imageSrc: 'https://tailwindui.com/img/ecommerce/icons/icon-warranty-simple.svg',
+        icon: CalendarIcon,
         description: "With your needs in mind, we plan and schedule our cleaning tasks at your convenience, ensuring our services seamlessly blend with your operations.",
     },
     {
         name: 'Clean',
-        imageSrc: 'https://tailwindui.com/img/ecommerce/icons/icon-exchange-simple.svg',
+        icon: BuildingOffice2Icon,
         description:
             "Our team, led by an industry veteran, meticulously cleans your space using eco-friendly products.",
     },
@@ -47,30 +50,30 @@ const cards = [
     {
         name: 'Tailored Services',
         description: 'Our services are meticulously tailored to your needs. Whether it\'s regular office cleaning or specialized sanitation procedures, we offer a diverse range of services to keep your workspace pristine and welcoming.',
-        icon: PhoneIcon,
+        icon: ClipboardDocumentListIcon,
     },
     {
         name: 'Flexible Scheduling',
         description: 'At Grime Guard, we align with your schedule to minimize disruption to your operations. You decide when and how often we clean, ensuring our services fit seamlessly into your day-to-day business activities.',
-        icon: LifebuoyIcon,
+        icon: CalendarDaysIcon,
     },
     {
         name: 'Uncompromising Quality',
         description: 'We take immense pride in the quality of our work. Our attention to detail and use of eco-friendly cleaning products ensure that your workspace is not only clean but also healthy and safe.',
-        icon: NewspaperIcon,
+        icon: CheckIcon,
     },
 ]
 
-const features = [
+const services = [
     {
         name: 'Office Cleaning',
         description: 'Our services cover all aspects of office cleaning including dusting, vacuuming, trash removal, and sanitizing common areas to maintain a clean and welcoming work environment.',
-        icon: CloudArrowUpIcon,
+        icon: BuildingOfficeIcon,
     },
     {
         name: 'Health Focused Cleaning',
         description: ' In these unprecedented times, we\'ve enhanced our cleaning protocols to include additional measures that help safeguard your workspace against health risks. This thorough sanitization process contributes to the well-being of employees and visitors alike.',
-        icon: LockClosedIcon,
+        icon: HeartIcon,
     },
     {
         name: 'Restroom Sanitation & Restocking',
@@ -80,17 +83,17 @@ const features = [
     {
         name: 'Breakroom Cleaning & Restocking',
         description: 'Our services extend to cleaning and maintaining the cleanliness of breakrooms or kitchens, including appliance cleaning, countertop and sink cleaning, and trash removal.',
-        icon: FingerPrintIcon,
+        icon: ArchiveBoxIcon,
     },
     {
         name: 'High-touch Point Sanitization',
         description: 'We pay special attention to areas with high human contact, such as door handles, elevator buttons, and light switches, ensuring these frequently touched surfaces are regularly cleaned and sanitized.',
-        icon: Cog6ToothIcon,
+        icon: UserCircleIcon,
     },
     {
         name: 'Detailed Cleaning',
         description: 'This service tackles dust build-up on all surfaces, including hard-to-reach areas, ensuring a cleaner and healthier workspace.',
-        icon: ServerIcon,
+        icon: ClipboardDocumentCheckIcon,
     },
 ]
 const benefits = [
@@ -252,16 +255,16 @@ export default function Example() {
                         </div>
                         <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none">
                             <dl className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-3">
-                                {features.map((feature) => (
-                                    <div key={feature.name} className="flex flex-col">
+                                {services.map((service) => (
+                                    <div key={service.name} className="flex flex-col">
                                         <dt className="text-base font-semibold leading-7 text-DarkBlueShade">
                                             <div className="mb-6 flex h-10 w-10 items-center justify-center rounded-lg bg-DarkBlueShade">
-                                                <feature.icon className="h-6 w-6 text-white" aria-hidden="true" />
+                                                <service.icon className="h-6 w-6 text-white" aria-hidden="true" />
                                             </div>
-                                            {feature.name}
+                                            {service.name}
                                         </dt>
                                         <dd className="mt-1 flex flex-auto flex-col text-base leading-7 text-DarkBrownShade">
-                                            <p className="flex-auto">{feature.description}</p>
+                                            <p className="flex-auto">{service.description}</p>
                                             {/*<p className="mt-6">*/}
                                             {/*    <a href={feature.href} className="text-sm font-semibold leading-6 text-indigo-600">*/}
                                             {/*        Learn more <span aria-hidden="true">→</span>*/}
@@ -354,7 +357,9 @@ export default function Example() {
                                 {incentives.map((incentive) => (
                                     <div key={incentive.name} className="sm:flex lg:block">
                                         <div className="sm:flex-shrink-0">
-                                            <Image className="h-16 w-16" src={incentive.imageSrc} height={500} width={500} alt="" />
+                                            <incentive.icon className="h-12 w-auto flex-none text-DarkBlueShade" aria-hidden="true" />
+
+                                            {/*<Image className="h-16 w-16" src={incentive.imageSrc} height={500} width={500} alt="" />*/}
                                         </div>
                                         <div className="mt-4 sm:ml-6 sm:mt-0 lg:ml-0 lg:mt-6">
                                             <h3 className="text-sm font-medium text-DarkBlueShade">{incentive.name}</h3>
@@ -528,19 +533,19 @@ export default function Example() {
                                     </p>
                                     <ul role="list" className="mt-8 space-y-8 text-DarkBrownShade">
                                         <li className="flex gap-x-3">
-                                            <CloudArrowUpIcon className="mt-1 h-5 w-5 flex-none text-DarkBlueShade" aria-hidden="true" />
+                                            <PhoneIcon className="mt-1 h-5 w-5 flex-none text-DarkBlueShade" aria-hidden="true" />
                                             <span>
                     <strong className="font-semibold text-DarkBlueShade">Consultation</strong> Our process begins with a detailed understanding of your cleaning needs and scheduling requirements.
                   </span>
                                         </li>
                                         <li className="flex gap-x-3">
-                                            <LockClosedIcon className="mt-1 h-5 w-5 flex-none text-DarkBlueShade" aria-hidden="true" />
+                                            <ClockIcon className="mt-1 h-5 w-5 flex-none text-DarkBlueShade" aria-hidden="true" />
                                             <span>
                     <strong className="font-semibold text-DarkBlueShade">Scheduling</strong> Based on your business hours and preferences, we arrange our cleaning services to minimize disruption to your operations.
                   </span>
                                         </li>
                                         <li className="flex gap-x-3">
-                                            <ServerIcon className="mt-1 h-5 w-5 flex-none text-DarkBlueShade" aria-hidden="true" />
+                                            <BuildingOfficeIcon className="mt-1 h-5 w-5 flex-none text-DarkBlueShade" aria-hidden="true" />
                                             <span>
                     <strong className="font-semibold text-DarkBlueShade">Clean as Scheduled</strong> Our team arrives as scheduled, performing the cleaning tasks diligently and efficiently, while respecting your workspace.
                   </span>
@@ -695,7 +700,7 @@ export default function Example() {
                         <h2 className="text-4xl font-bold tracking-tight text-DarkBlueShade">Sign Up for a Quote Today</h2>
                         <p className="mt-2 text-lg leading-8 text-DarkBrownShade">Transform Your Workspace With Grime Guard</p>
                         <div className="mt-16 flex flex-col gap-16 sm:gap-y-20 lg:flex-row">
-                            <form action="#" method="POST" className="lg:flex-auto">
+                            <form name="Service-Request" data-netlify="true" method="POST" className="lg:flex-auto">
                                 <div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
                                     <div>
                                         <label htmlFor="first-name" className="block text-sm font-semibold leading-6 text-DarkBlueShade">
@@ -726,27 +731,27 @@ export default function Example() {
                                         </div>
                                     </div>
                                     <div>
-                                        <label htmlFor="budget" className="block text-sm font-semibold leading-6 text-DarkBlueShade">
-                                            Budget
+                                        <label htmlFor="address" className="block text-sm font-semibold leading-6 text-DarkBlueShade">
+                                            Address
                                         </label>
                                         <div className="mt-2.5">
                                             <input
-                                                id="budget"
-                                                name="budget"
+                                                id="address"
+                                                name="Address"
                                                 type="text"
                                                 className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-DarkBlueShade sm:text-sm sm:leading-6"
                                             />
                                         </div>
                                     </div>
                                     <div>
-                                        <label htmlFor="website" className="block text-sm font-semibold leading-6 text-DarkBlueShade">
-                                            Website
+                                        <label htmlFor="budget" className="block text-sm font-semibold leading-6 text-DarkBlueShade">
+                                            Budget
                                         </label>
                                         <div className="mt-2.5">
                                             <input
                                                 type="url"
-                                                name="website"
-                                                id="website"
+                                                name="budget"
+                                                id="budget"
                                                 className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-DarkBlueShade sm:text-sm sm:leading-6"
                                             />
                                         </div>
