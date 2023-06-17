@@ -232,7 +232,7 @@ export default function Example() {
                     </div>
                     <div className="bg-gray-50 lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
                         <Image
-                            className="aspect-[3/2] object-cover lg:aspect-auto lg:h-full lg:w-full"
+                            className="aspect-[3/2] object-cover ring-4 ring-LightBrownAccent/40  lg:aspect-auto lg:h-full lg:w-full"
                             src="/content/mainImage.jpg"
                             alt="Image by macrovector on Freepik"
                             height={1920}
@@ -292,7 +292,7 @@ export default function Example() {
                         <div className="-mt-8 w-full max-w-2xl xl:-mb-8 xl:w-96 xl:flex-none">
                             <div className="relative aspect-[2/1] h-full md:-mx-8 xl:mx-0 xl:aspect-auto">
                                 <Image
-                                    className="absolute inset-0 h-full w-full rounded-2xl bg-gray-800 object-cover shadow-2xl"
+                                    className="absolute inset-0 h-full w-full rounded-2xl ring-4 ring-LightBrownAccent/90 bg-gray-800 object-cover shadow-2xl"
                                     src="/content/cleaning-office-1.jpg"
                                     alt="Image by Freepik"
                                     height={1920}
@@ -340,13 +340,13 @@ export default function Example() {
                                         Choosing Grime Guard means choosing a dedicated ally who will value and respect your space as much as you do. We take immense pride in our attention to detail, professional demeanor, and the relentless pursuit of customer satisfaction.
                                     </p>
                                 </div>
-                                <div className="aspect-h-2 aspect-w-3 overflow-hidden rounded-lg bg-gray-100">
+                                <div className="aspect-h-2 aspect-w-3 overflow-hidden rounded-lg bg-gray-100  ring-8 ring-LightBrownAccent/80">
                                     <Image
                                         src="/content/cleaning-office-2.jpg"
                                         alt=""
                                         className="object-cover object-center"
-                                        height={250}
-                                        width={500}
+                                        height={1920}
+                                        width={1080}
                                     />
                                 </div>
                             </div>
@@ -385,8 +385,8 @@ export default function Example() {
                                         src="/content/team-image-2.jpg"
                                         height={250}
                                         width={250}
-                                        alt=""
-                                        className="aspect-[7/5] w-[37rem] max-w-none rounded-2xl bg-gray-50 object-cover"
+                                        alt="Image by wirestock on Freepik"
+                                        className="aspect-[7/5] w-[37rem] max-w-none ring-8 ring-LightBrownAccent/80 rounded-2xl bg-gray-50 object-cover"
                                     />
                                 </div>
 
@@ -399,13 +399,13 @@ export default function Example() {
                 <div className="bg-DarkBlueShade py-24 sm:py-32">
                     <div className="relative isolate">
                         <div className="mx-auto max-w-7xl sm:px-6 lg:px-8">
-                            <div className="mx-auto flex max-w-2xl flex-col gap-16 bg-white/5 px-6 py-16 ring-1 ring-white/10 sm:rounded-3xl sm:p-8 lg:mx-0 lg:max-w-none lg:flex-row lg:items-center lg:py-20 xl:gap-x-20 xl:px-20">
+                            <div className="mx-auto flex max-w-2xl flex-col gap-16 bg-LightBrownAccent/5 px-6 py-16 ring-1 ring-white/10 sm:rounded-2xl sm:p-8 lg:mx-0 lg:max-w-none lg:flex-row lg:items-center lg:py-20 xl:gap-x-20 xl:px-20">
                                 <Image
                                     src="/content/team-image-3.jpg"
                                     height={250}
                                     width={500}
                                     alt="Image by wirestock on Freepik"
-                                    className="h-96 w-full flex-none rounded-2xl object-cover shadow-xl lg:aspect-square lg:h-auto lg:max-w-sm"
+                                    className="h-96 w-full flex-none rounded-2xl object-cover shadow-xl lg:aspect-square lg:h-auto lg:max-w-sm ring-8 ring-LightBrownAccent/80"
                                 />
                                 <div className="w-full flex-auto">
                                     <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">The Grime Guard Difference</h2>
@@ -445,38 +445,14 @@ export default function Example() {
                     </div>
                 </div>
                 <div className="relative bg-DarkBlueShade">
-                    <div className="relative h-80 overflow-hidden bg-DarkBlueShade md:absolute md:left-0 md:h-full md:w-1/3 lg:w-1/2">
+                    <div className="relative h-80 overflow-hidden rounded-t-2xl md:absolute md:left-0 md:h-full md:w-1/3 lg:w-1/2 ring-8 ring-LightBrownAccent/80">
                         <Image
-                            className="h-full w-full object-cover"
+                            className="h-full w-full object-cover "
                             src="/content/cleaning-office-3.jpg"
                             height={500}
                             width={900}
                             alt=""
                         />
-                        <svg
-                            viewBox="0 0 926 676"
-                            aria-hidden="true"
-                            className="absolute -bottom-24 left-24 w-[57.875rem] transform-gpu blur-[118px]"
-                        >
-                            <path
-                                fill="url(#60c3c621-93e0-4a09-a0e6-4c228a0116d8)"
-                                fillOpacity=".4"
-                                d="m254.325 516.708-90.89 158.331L0 436.427l254.325 80.281 163.691-285.15c1.048 131.759 36.144 345.144 168.149 144.613C751.171 125.508 707.17-93.823 826.603 41.15c95.546 107.978 104.766 294.048 97.432 373.585L685.481 297.694l16.974 360.474-448.13-141.46Z"
-                            />
-                            <defs>
-                                <linearGradient
-                                    id="60c3c621-93e0-4a09-a0e6-4c228a0116d8"
-                                    x1="926.392"
-                                    x2="-109.635"
-                                    y1=".176"
-                                    y2="321.024"
-                                    gradientUnits="userSpaceOnUse"
-                                >
-                                    <stop stopColor="#776FFF" />
-                                    <stop offset={1} stopColor="#FF4694" />
-                                </linearGradient>
-                            </defs>
-                        </svg>
                     </div>
                     <div className="relative mx-auto max-w-7xl py-24 sm:py-32 lg:px-8 lg:py-40">
                         <div className="pl-6 pr-6 md:ml-auto md:w-2/3 md:pl-16 lg:w-1/2 lg:pl-24 lg:pr-0 xl:pl-32">
@@ -537,7 +513,7 @@ export default function Example() {
                         </div>
                         <div className="-ml-12 -mt-12 p-12 lg:sticky lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:overflow-hidden">
                             <Image
-                                className="w-[48rem] max-w-none rounded-xl bg-gray-900 shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem]"
+                                className="w-[48rem] max-w-none rounded-xl bg-gray-900 shadow-xl ring-4 ring-LightBrownAccent/80 sm:w-[57rem]"
                                 src="/content/organization-clean-1.jpg"
                                 height={500}
                                 width={500}
@@ -586,7 +562,7 @@ export default function Example() {
                     <div className="mx-auto max-w-7xl px-6 lg:px-8">
                         <div className="mx-auto grid max-w-2xl grid-cols-1 items-start gap-x-8 gap-y-16 sm:gap-y-24 lg:mx-0 lg:max-w-none lg:grid-cols-2">
                             <div className="lg:pr-4">
-                                <div className="relative overflow-hidden rounded-3xl bg-DarkBlueShade px-6 pb-9 pt-64 shadow-2xl sm:px-12 lg:max-w-lg lg:px-8 lg:pb-8 xl:px-10 xl:pb-10">
+                                <div className="relative overflow-hidden rounded-3xl bg-LightBrownAccent px-6 pb-9 pt-64 shadow-2xl sm:px-12 lg:max-w-lg lg:px-8 lg:pb-8 xl:px-10 xl:pb-10">
                                     <Image
                                         className="absolute inset-0 h-full w-full object-cover brightness-125 saturate-0"
                                         src="/content/spray-bottles-plain-background.jpg"
@@ -594,7 +570,7 @@ export default function Example() {
                                         width={500}
                                         alt=""
                                     />
-                                    <div className="absolute inset-0 bg-DarkBlueShade mix-blend-multiply" />
+                                    <div className="absolute inset-0 bg-LightBrownAccent mix-blend-multiply" />
                                     <div
                                         className="absolute left-1/2 top-1/2 -ml-16"
                                         aria-hidden="true"
@@ -608,14 +584,14 @@ export default function Example() {
                                         />
                                     </div>
                                     <figure className="relative isolate">
-                                        <Image src="/Grime Guard Logo extra.png" alt="Image by Freepik" className="h-12 w-auto" height={500} width={500} />
-                                        <blockquote className="mt-6 text-xl font-semibold leading-8 text-white">
+                                        <Image src="/Grime Guard Logo.png" alt="Image by Freepik" className="h-12 w-auto" height={500} width={500} />
+                                        <blockquote className="mt-6 text-xl font-semibold leading-8 text-white bg-DarkBlueShade/80 rounded-2xl p-3 ">
                                             <p>
                                                 Perfecting cleanliness with passion in Lakewood and across the vibrant neighboring communities of Colorado&apos;s Front Range.
                                             </p>
                                         </blockquote>
-                                        <figcaption className="mt-6 text-sm leading-6 text-gray-300">
-                                            <strong className="font-semibold text-white">Locally Owned, Community Focused </strong> | Choose local. Choose Grime Guard.
+                                        <figcaption className="mt-6 text-sm leading-6 text-DarkBlueShade">
+                                            <strong className="font-semibold text-DarkBlueShade">Locally Owned, Community Focused </strong> | Choose local. Choose Grime Guard.
                                         </figcaption>
                                     </figure>
                                 </div>
