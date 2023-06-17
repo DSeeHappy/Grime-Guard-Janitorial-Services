@@ -397,8 +397,8 @@ export default function Example() {
                                     className="absolute inset-0 h-full w-full rounded-2xl bg-gray-800 object-cover shadow-2xl"
                                     src="/content/cleaning-office-1.jpg"
                                     alt="Image by Freepik"
-                                    height={250}
-                                    width={250}
+                                    height={1920}
+                                    width={1080}
                                 />
                             </div>
                         </div>
@@ -456,7 +456,7 @@ export default function Example() {
                                 {incentives.map((incentive) => (
                                     <div key={incentive.name} className="sm:flex lg:block">
                                         <div className="sm:flex-shrink-0">
-                                            <img className="h-16 w-16" src={incentive.imageSrc} alt="" />
+                                            <Image className="h-16 w-16" src={incentive.imageSrc} height={500} width={500} alt="" />
                                         </div>
                                         <div className="mt-4 sm:ml-6 sm:mt-0 lg:ml-0 lg:mt-6">
                                             <h3 className="text-sm font-medium text-gray-900">{incentive.name}</h3>
@@ -719,7 +719,7 @@ export default function Example() {
                                         />
                                     </div>
                                     <figure className="relative isolate">
-                                        <Image src="/Grime Guard Logo@3x.png" alt="Image by Freepik" className="h-12 w-auto" height={500} width={500} />
+                                        <Image src="/Grime Guard Logo extra.png" alt="Image by Freepik" className="h-12 w-auto" height={500} width={500} />
                                         <blockquote className="mt-6 text-xl font-semibold leading-8 text-white">
                                             <p>
                                                 Perfecting cleanliness with passion in Lakewood and across the vibrant neighboring communities of Colorado's Front Range.
