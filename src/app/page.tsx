@@ -362,8 +362,8 @@ export default function Example() {
                                             {/*<Image className="h-16 w-16" src={incentive.imageSrc} height={500} width={500} alt="" />*/}
                                         </div>
                                         <div className="mt-4 sm:ml-6 sm:mt-0 lg:ml-0 lg:mt-6">
-                                            <h3 className="text-sm font-medium text-DarkBlueShade">{incentive.name}</h3>
-                                            <p className="mt-2 text-sm text-DarkBrownShade">{incentive.description}</p>
+                                            <h3 className=" font-medium text-DarkBlueShade">{incentive.name}</h3>
+                                            <p className="mt-2 text-DarkBrownShade">{incentive.description}</p>
                                         </div>
                                     </div>
                                 ))}
