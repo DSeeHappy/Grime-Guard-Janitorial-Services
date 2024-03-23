@@ -310,7 +310,7 @@ export default function Example() {
                                     src="/content/Grime-Guard-Janitorial-Services-Rosa-Chavez-Denver-CO.png"
                                     alt="Grime Guard Janitorial Services - Rosa Chavez in Denver, CO"
                                     height={1920}
-                                    width={1080}
+                                    width={3490}
                                 />
                             </div>
                         </div>
@@ -418,10 +418,9 @@ export default function Example() {
                                         height={1920}
                                         width={1080}
                                         alt="Grime Guard Janitorial Services - Cleaning Table in Denver, CO"
-                                        className="aspect-[7/5] w-[37rem] max-w-none ring-8 ring-LightBrownAccent/80 rounded-2xl bg-gray-50 object-cover object-right-top"
+                                        className="md:aspect-[5/8] md:w-[37rem]  ring-8 ring-LightBrownAccent/80 rounded-2xl bg-gray-50 object-cover sm:object-top md:object-left-top"
                                     />
                                 </div>
-
                             </div>
                         </div>
                     </div>
